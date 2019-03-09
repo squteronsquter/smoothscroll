@@ -1,0 +1,5 @@
+// Smooth scroll
+const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+  speed: 800,
+  speedAsDuration: true
+});

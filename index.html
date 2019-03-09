@@ -5,48 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Smooth Scroll Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Find out all about smooth scrolling of landing pages! Read new and inspect the code."
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#service">Service</a>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <section id="home">
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Dolores
-        sequi inventore maxime magni rerum quos iure, nisi recusandae!
-      </p>
-    </section>
-    <section id="about">
-      <h1>About</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Officiis
-        ab, omnis debitis quibusdam aliquid aliquam facilis consequuntur!
-        Reiciendis.
-      </p>
-    </section>
-    <section id="service">
-      <h1>Service</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sit
-        beatae cupiditate consequuntur placeat inventore laboriosam ex, autem
-        blanditiis?
-      </p>
-    </section>
-    <section id="contact">
-      <h1>Contact</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />Quos
-        corporis vero illo est error voluptatem dignissimos et enim.
-      </p>
-    </section>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <!-- <a data-scroll href="#home">Home</a>
+            <a data-scroll href="#about">About</a>
+            <a data-scroll href="#service">Service</a>
+            <a data-scroll href="#contact">Contact</a> -->
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section id="home">
+        <h1>Welcome!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Dolores
+          sequi inventore maxime magni rerum quos iure, nisi recusandae!
+        </p>
+      </section>
+      <section id="about">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br />Officiis ab, omnis debitis quibusdam aliquid aliquam facilis
+          consequuntur! Reiciendis.
+        </p>
+      </section>
+      <section id="service">
+        <h1>Our Services</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sit
+          beatae cupiditate consequuntur placeat inventore laboriosam ex, autem
+          blanditiis?
+        </p>
+      </section>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />Quos
+          corporis vero illo est error voluptatem dignissimos et enim.
+        </p>
+      </section>
+    </div>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
